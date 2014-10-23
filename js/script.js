@@ -102,7 +102,8 @@ getMenu(id);
 
 
 
-    // TODO #4 Call getMenu with a menu of your choice and set that menu's
+    // DONE #4 Call getMenu with a menu of your choice and set that menu's
     // header to active so that a menu is loaded with the page by default
+getMenu("lunch");
 
 });
