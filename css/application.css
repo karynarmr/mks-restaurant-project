@@ -89,16 +89,18 @@ section {
     color: #fffdf0;
 }
 
-.hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ 
+.hours-label { /* DONE style these with the appropriate font styles (bold/italic) */ 
     background-color: #221c12;
     color: #fffdf0;
-    font-style: bold, italic;
+    font-style: italic;
+    font-weight: bold;
 }
 
-.hours-value { /* TODO style these with the appropriate font styles (bold/italic) */ 
+.hours-value { /* DONE style these with the appropriate font styles (bold/italic) */ 
     background-color: #221c12;
     color: #fffdf0;
-    font-style: bold, italic;
+    font-style: italic;
+    font-weight: bold;
 }
 
 
@@ -108,7 +110,10 @@ section {
 /* ---------------------------------------------- */
 
 .menu {
-    /* TODO give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
+    /* DONE give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
+    padding: 1em;
+    background: #fffdf0;
+    color: #221c12;
 }
 
 .menu h2 {
