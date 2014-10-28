@@ -4,16 +4,21 @@
 
 body {
     margin: 0;
-    /* TODO use the Google Font 'Bitter' */
+    /* DONE use the Google Font 'Bitter' */
+    font-family: "Bitter";
     font-size: 100%;
 }
 
 div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
     /* TODO because we are using Foundation, we have to override Foundation's default font family. Use the Google Font 'Bitter' here. */
+font-family: "Bitter";
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
-    /* TODO make the font color of all our headers #fffdf0 */
+    /* DONE make the font color of all our headers #fffdf0 */
+    font-color: #fffdf0;
 }
 
 /* ---------------------------------------------- */
@@ -23,21 +28,32 @@ h1, h2, h3, h4, h5, h6 {
 header {}
 
 header h1 {
-    /* TODO make the font size larger than Foundation's default; I uesd 4.5em */
-    /* TODO add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
+    /* DONE make the font size larger than Foundation's default; I uesd 4.5em */
+    /* DONE add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
+    font-size: 4.5em;
+    text-shadow: 5px 10px 50px rgba(34, 28, 18, .75);
 }
 
 header .tagline h4 {
-    /* TODO make the tagline italic; you'll have to work hard to override Foundation's font-style: normal on all headers! */
-    /* TODO add the same text-shadow */
+    /* DONE make the tagline italic; you'll have to work hard to override Foundation's font-style: normal on all headers! */
+    /* DONE add the same text-shadow */
+    font-style: italic;
+    text-shadow: 5px 10px 50px rgba(34, 28, 18, .75);
+
 }
 
 header .tagline {
-    /* TODO center the text */
+    /* DONE center the text */
+    text-align: center;
     background: rgba(34, 28, 18,.5); /* I added this transparent background bar for you. */
-    /* TODO add some padding to give it space around the text */
-    /* TODO absolutely position the tagline bar at top: 35%. add a width so that it goes all the way across. */
+    /* DONE add some padding to give it space around the text */
+    padding: 1em;
+    /* DONE absolutely position the tagline bar at top: 35%. add a width so that it goes all the way across. */
+    position: absolute, top: 35%;
+    width: 100%;
+
     /* TODO when you make the slideshow work, the tagline will get hidden. why? what line of CSS do you have to write to make it appear ABOVE the slideshow? */
+    font-style: italic;
 }
 
 
@@ -59,16 +75,31 @@ section {
 /* ---------------------------------------------- */
 
 .address {
-    /* TODO give this section a background of #221c12 and a color of #fffdf0. make the text centered */
+    /* DONE give this section a background of #221c12 and a color of #fffdf0. make the text centered */
+    text-align: center;
+    background-color: #221c12;
+    color: #fffdf0;
 }
 
 .location,
 .hours {
-    /* TODO give these two divs some padding so that they line up with the map */
+    /* DONE give these two divs some padding so that they line up with the map */
+    padding: 1em;
+    background-color: #221c12;
+    color: #fffdf0;
 }
 
-.hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ }
-.hours-value { /* TODO style these with the appropriate font styles (bold/italic) */ }
+.hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ 
+    background-color: #221c12;
+    color: #fffdf0;
+    font-style: bold, italic;
+}
+
+.hours-value { /* TODO style these with the appropriate font styles (bold/italic) */ 
+    background-color: #221c12;
+    color: #fffdf0;
+    font-style: bold, italic;
+}
 
 
 
