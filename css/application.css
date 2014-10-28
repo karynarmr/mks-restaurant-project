@@ -18,7 +18,7 @@ font-family: "Bitter";
 
 h1, h2, h3, h4, h5, h6 {
     /* DONE make the font color of all our headers #fffdf0 */
-    font-color: #fffdf0;
+    color: #fffdf0;
 }
 
 /* ---------------------------------------------- */
@@ -117,19 +117,27 @@ section {
 }
 
 .menu h2 {
-    /* TODO make this font size larger than the Foundation default */
+    /* DONE make this font size larger than the Foundation default */
+    font-size: 3em;
+    text-align: center;
 }
 
 .menu h2, .menu h3, .menu h4 {
-    /* TODO give these headers a color of #221c12 */
+    /* DONE give these headers a color of #221c12 */
+    color: #221c12;
 }
 
 
-/* TODO center the text of the h2 and menu-section */
+/* DONE center the text of the h2 and menu-section */
 
-.menu-section h3 a {
-    /* TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
-    /* TODO give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
+.menu-section h3 a:hover {
+    /* DONE make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
+    /* DONE give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
+    color: rgba(34, 28, 18);
+    border-bottom: 3px;
+    border-bottom-color: rgba(34, 28, 18);
+    padding-bottom: 1em;
+    transition:.5s;
 }
 
 
